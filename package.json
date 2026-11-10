@@ -1,7 +1,7 @@
 {
   "name": "catalogue",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000c\u0000a\u0000t\u0000a\u0000l\u0000o\u0000g\u0000u\u0000e\u0000\r\u0000 \u0000",
+  "description": "Catalogue service",
   "homepage": "https://github.com/kumarsahil0175-star/catalogue#readme",
   "bugs": {
     "url": "https://github.com/kumarsahil0175-star/catalogue/issues"
@@ -19,7 +19,9 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
     "nodemon": "^3.1.14"
   }
 }
